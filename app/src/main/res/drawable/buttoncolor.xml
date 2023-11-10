@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#80B3FF"/> <!-- Background color of EditText -->
+            <corners android:radius="20dp"/> <!-- Curved corners -->
+            <stroke android:color="@color/white" android:width="2dp"/> <!-- Border -->
+        </shape>
+    </item>
+</selector>
