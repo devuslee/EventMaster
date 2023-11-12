@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/topImage"
+        android:layout_width="wrap_content"
+        android:layout_height="255dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/background" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:layout_below="@id/topImage"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="5dp"
+        android:layout_marginTop="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:padding="16dp"
+            android:background="@color/backGround2">
+
+
+            <EditText
+                android:id="@+id/username1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/buttoncolor"
+                android:hint="Email"
+                android:paddingLeft="16dp"
+                android:paddingTop="10dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="10dp" />
+
+            <EditText
+                android:id="@+id/password1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/username1"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttoncolor"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingLeft="16dp"
+                android:paddingTop="10dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="10dp" />
+
+
+            <Button
+                android:id="@+id/btnsignin1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/password1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttoncolor"
+                android:backgroundTint="#131313"
+                android:padding="12dp"
+                android:text="Sign in" />
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnsignin1"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/transparent"
+                android:padding="5dp"
+                android:text="Click for Register"
+                android:textColor="@color/fontColour"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/forgetaccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/register"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/transparent"
+                android:padding="5dp"
+                android:text="Forgot account? Recover!"
+                android:textColor="@color/fontColour"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="84dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="17dp"
+        android:visibility="invisible" />
+</RelativeLayout>
