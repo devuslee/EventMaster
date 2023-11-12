@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/eventimage"
+        android:layout_width="94dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/eventname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/eventimage"
+        android:layout_alignTop="@+id/eventimage"
+        android:textSize="24dp"
+        android:text="Event Name"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eventname"
+        android:layout_toEndOf="@+id/eventimage"
+        android:text="Event type:"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eventname"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="-21dp"
+        android:layout_toEndOf="@+id/eventimage"
+        android:text="Status: " />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/type"
+        android:layout_toEndOf="@+id/eventimage"
+        android:text="Event time:"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/interested"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/type"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/eventimage"
+        android:text="Participants" />
+
+</RelativeLayout>
