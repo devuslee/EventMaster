@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminHome">
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/buttonColour"> <!-- Setting the layout background to blue -->
+
+        <!-- Setting text color to white -->
+
+        <!-- Setting text color to white -->
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="233dp"
+            android:text="Home"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="186dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/search_view_background"
+            app:iconifiedByDefault="false"
+            app:queryHint="Search here...."
+            android:focusable="false"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/eventlist"
+        android:layout_width="match_parent"
+        android:layout_height="621dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-78dp"
+        android:layout_marginBottom="70dp"
+        android:background="@color/backGround">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/NoEvents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There are no events to approve!"
+        android:layout_centerInParent="true" />
+
+    <ImageView
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="8dp"
+        app:srcCompat="@drawable/logout" /> <!-- This attribute centers the TextView -->
+
+</RelativeLayout>
