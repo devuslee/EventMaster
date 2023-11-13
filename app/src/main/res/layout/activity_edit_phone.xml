@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password Recovery"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:textSize="36sp"
+        android:textStyle="bold"/>
+
+    <!-- CardView Starts Here -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="4dp"
+        android:padding="16dp"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/backGround2">
+
+
+            <!-- Your content including buttons, EditTexts and TextViews goes here -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.hbb20.CountryCodePicker
+                    android:id="@+id/countryCodePicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    app:ccp_defaultNameCode="MY"
+                    app:ccp_showNameCode="true"
+                    app:ccp_showPhoneCode="true" />
+
+                <EditText
+                    android:id="@+id/phoneNumber"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:hint="Enter Phone Number"
+                    android:inputType="phone"
+                    android:padding="12dp"
+                    android:layout_marginStart="8dp"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonSendOtp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/buttoncolor"
+                android:text="Send OTP"
+                android:textColor="#FFF" />
+
+            <TextView
+                android:id="@+id/resend_otp_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resend OTP in 60 seconds"
+                android:gravity="center"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <EditText
+                android:id="@+id/editTextCode"
+                android:layout_height="48dp"
+                android:hint="Enter OTP"
+                android:inputType="number"
+                android:layout_width="150dp"
+                android:padding="12dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp" />
+
+            <Button
+                android:id="@+id/buttonVerifyOtp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="Verify OTP"
+                android:background="@drawable/buttoncolor"
+                android:textColor="#FFF"
+                android:layout_marginTop="16dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <!-- CardView Ends Here -->
+
+</LinearLayout>
