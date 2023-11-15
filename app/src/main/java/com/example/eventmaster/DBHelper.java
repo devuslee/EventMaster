@@ -10,6 +10,8 @@ import android.util.Log;
 
 import androidx.annotation.Nullable;
 
+import com.example.eventmanager.FavouriteClass;
+
 import java.sql.Array;
 import java.sql.Blob;
 import java.util.ArrayList;

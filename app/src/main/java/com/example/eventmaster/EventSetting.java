@@ -3,6 +3,7 @@ package com.example.eventmanager;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
+import android.app.Notification;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -18,6 +19,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.eventmaster.DBHelper;
+import com.example.eventmaster.User;
 import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.ArrayList;
@@ -114,7 +117,7 @@ public class EventSetting extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 int userID = getIntent().getIntExtra("userID", 0);
-                Intent intent = new Intent(context, eventHome.class);
+                Intent intent = new Intent(context, com.example.eventmanager.eventHome.class);
                 intent.putExtra("userID", userID);
                 startActivity(intent);
             }
@@ -133,7 +136,7 @@ public class EventSetting extends AppCompatActivity {
         favourite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, Favourite.class);
+                Intent intent = new Intent(context, com.example.eventmanager.Favourite.class);
                 int userID = getIntent().getIntExtra("userID", 0);
                 intent.putExtra("userID", userID);
                 startActivity(intent);

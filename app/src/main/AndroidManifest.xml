@@ -2,6 +2,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,22 +23,98 @@
         android:theme="@style/Theme.EventMaster"
         tools:targetApi="31">
         <activity
-            android:name="com.example.eventmaster.UpdateProfile"
+            android:name=".ViewMoreAdmin"
             android:exported="false" />
         <activity
-            android:name="com.example.eventmaster.UpdateEvent"
+            android:name=".AdminHome"
             android:exported="false" />
         <activity
-            android:name=".otpverification"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".GetStarted"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditPhone"
+            android:exported="false" />
+        <activity
+            android:name=".EmailOrPhone"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ViewMoreFavourite"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" /> <!-- Add LoginActivity declaration here -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EventList"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".eventHome"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".EditProfile">
+
+            <!-- Intent filters if necessary -->
+        </activity> <!-- Add EventSetting declaration here -->
+        <activity android:name=".EventSetting">
+
+            <!-- Intent filters if necessary -->
+        </activity> <!-- Add Favourite declaration here -->
+        <activity
+            android:name=".Favourite"
+            android:windowSoftInputMode="adjustPan" /> <!-- Add Notification declaration here -->
+        <activity android:name=".Notification">
+
+            <!-- Intent filters if necessary -->
+        </activity> <!-- Add Overview declaration here -->
+        <activity android:name=".Overview">
+
+            <!-- Intent filters if necessary -->
+        </activity> <!-- Add UpdateEvent declaration here -->
+        <activity android:name=".UpdateEvent">
+
+            <!-- Intent filters if necessary -->
+        </activity>
+        <activity android:name=".ViewMore">
+
+            <!-- Intent filters if necessary -->
+        </activity>
+        <activity android:name=".ViewMoreUpdate">
+
+            <!-- Intent filters if necessary -->
+        </activity>
+        <activity android:name=".AddEvent">
+
+            <!-- Intent filters if necessary -->
+        </activity>
+        <activity android:name=".MyCalendar">
+
+            <!-- Additional configuration, such as intent filters, if needed -->
+        </activity>
+        <activity android:name=".otpverification">
+
+            <!-- Additional configuration, such as intent filters, if needed -->
+        </activity>
+        <activity android:name=".ForgetPassword">
+
+            <!-- Additional configuration, such as intent filters, if needed -->
+        </activity>
+        <activity android:name=".ChangePassword">
+
+            <!-- Additional configuration, such as intent filters, if needed -->
+        </activity>
+        <activity android:name=".ForgetPasswordPhone">
+
+            <!-- Additional configuration, such as intent filters, if needed -->
         </activity>
     </application>
 

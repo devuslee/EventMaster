@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewMoreAdmin">
+
+    <Button
+        android:id="@+id/ApproveButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="664dp"
+        android:layout_marginEnd="20dp"
+        android:text="Approve" />
+
+    <Button
+        android:id="@+id/RejectButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="663dp"
+        android:layout_marginEnd="158dp"
+        android:text="Reject" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="197dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="191dp"
+        android:layout_marginEnd="108dp"
+        android:gravity="center_horizontal"
+        android:text="Event name: "
+        android:textSize="48dp" />
+
+    <TextView
+        android:id="@+id/Location"
+        android:layout_width="180dp"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="459dp"
+        android:layout_marginEnd="14dp"
+        android:text="Location name: " />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="218dp"
+        android:text="Description: " />
+
+    <TextView
+        android:id="@+id/description2"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="254dp"
+        android:layout_marginEnd="249dp"
+        android:text="Description: "
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/startdatetext"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="439dp"
+        android:layout_marginEnd="247dp"
+        android:text="Date: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/locationtext"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="214dp"
+        android:layout_marginTop="439dp"
+        android:layout_marginEnd="55dp"
+        android:text="Location: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/starttimetext"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="246dp"
+        android:text="Starting time: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/endtimetext"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="214dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="55dp"
+        android:text="Ending time: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/type1"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="254dp"
+        android:layout_marginEnd="58dp"
+        android:text="Type:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="14dp"
+        android:text="Type: " />
+
+    <TextView
+        android:id="@+id/startdatetime"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="458dp"
+        android:layout_marginEnd="218dp"
+        android:text="Date: " />
+
+    <TextView
+        android:id="@+id/enddatetime"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="362dp"
+        android:layout_marginEnd="218dp"
+        android:text="Ending Date and time: " />
+
+    <TextView
+        android:id="@+id/enddatetime2"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="362dp"
+        android:layout_marginEnd="14dp"
+        android:text="Ending Date and time: " />
+
+    <ImageView
+        android:id="@+id/launchmap"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="562dp"
+        android:background="@drawable/location2"
+        android:text="Launch Map" />
+
+    <ImageView
+        android:id="@+id/eventimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="124dp"
+        app:srcCompat="@drawable/noimage" />
+
+    <ImageView
+        android:id="@+id/backbutton"
+        android:layout_width="35dp"
+        android:layout_height="39dp"
+        app:srcCompat="@drawable/back" />
+
+</RelativeLayout>
