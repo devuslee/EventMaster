@@ -1,10 +1,3 @@
 <resources>
-    <string name="app_name">EventManager</string>\
-
-    <string-array name="type">
-        <item>Sports</item>
-        <item>Games</item>
-        <item>Events</item>
-        <item>Other</item>`
-    </string-array>
+    <string name="app_name">EventMaster</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.eventmanager;
+package com.example.eventmaster;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -38,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
+<<<<<<< Updated upstream
+        
+=======
 
         context = this;
         DB = new DBHelper(context);
@@ -51,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
         DB = new DBHelper(this);
         progressBar = findViewById(R.id.progressBar);
         fAuth= FirebaseAuth.getInstance();
+>>>>>>> Stashed changes
 
         btnsignup.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -124,11 +128,11 @@ public class MainActivity extends AppCompatActivity {
 
 
         btnsignin.setOnClickListener(new View.OnClickListener() {
-           @Override
-           public void onClick(View view) {
-               Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
-               startActivity(intent);
-           }
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                startActivity(intent);
+            }
         });
 
         final EditText passwordEditText = findViewById(R.id.password);

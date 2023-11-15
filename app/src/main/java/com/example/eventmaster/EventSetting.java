@@ -3,7 +3,6 @@ package com.example.eventmaster;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
-import android.app.Notification;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -19,9 +18,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.eventmanager.R;
-import com.example.eventmaster.DBHelper;
-import com.example.eventmaster.User;
 import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.ArrayList;
