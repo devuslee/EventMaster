@@ -1,4 +1,4 @@
-package com.example.eventmanager;
+package com.example.eventmaster;
 
 import android.content.Context;
 import android.content.Intent;
