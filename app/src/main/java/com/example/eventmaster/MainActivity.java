@@ -38,9 +38,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
-<<<<<<< Updated upstream
-        
-=======
 
         context = this;
         DB = new DBHelper(context);
@@ -54,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         DB = new DBHelper(this);
         progressBar = findViewById(R.id.progressBar);
         fAuth= FirebaseAuth.getInstance();
->>>>>>> Stashed changes
+
 
         btnsignup.setOnClickListener(new View.OnClickListener() {
             @Override
