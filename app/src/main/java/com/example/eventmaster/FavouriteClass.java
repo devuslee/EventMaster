@@ -1,4 +1,4 @@
-package com.example.eventmanager;
+package com.example.eventmaster;
 
 public class FavouriteClass {
     int userID, eventID, favouriteID;
