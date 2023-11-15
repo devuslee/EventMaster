@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- This shape creates a background with the border only at the bottom -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/backGround" /> <!-- Set your desired item background color -->
+            <stroke
+                android:width="2dp"
+                android:color="@color/backGround2" /> <!-- Set the border color and width -->
+        </shape>
+    </item>
+</layer-list>
