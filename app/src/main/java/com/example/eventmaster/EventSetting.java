@@ -19,6 +19,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.eventmanager.R;
 import com.example.eventmaster.DBHelper;
 import com.example.eventmaster.User;
 import com.google.firebase.auth.FirebaseAuth;
@@ -117,7 +118,7 @@ public class EventSetting extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 int userID = getIntent().getIntExtra("userID", 0);
-                Intent intent = new Intent(context, com.example.eventmanager.eventHome.class);
+                Intent intent = new Intent(context, eventHome.class);
                 intent.putExtra("userID", userID);
                 startActivity(intent);
             }
@@ -136,7 +137,7 @@ public class EventSetting extends AppCompatActivity {
         favourite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, com.example.eventmanager.Favourite.class);
+                Intent intent = new Intent(context, Favourite.class);
                 int userID = getIntent().getIntExtra("userID", 0);
                 intent.putExtra("userID", userID);
                 startActivity(intent);

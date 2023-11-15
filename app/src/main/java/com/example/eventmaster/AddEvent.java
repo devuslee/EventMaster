@@ -43,6 +43,8 @@ import java.util.TimeZone;
 
 import android.icu.util.Calendar;
 
+import com.example.eventmanager.R;
+
 public class AddEvent extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     private Context context;

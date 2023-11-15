@@ -18,7 +18,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.eventmanager.Favourite;
+import com.example.eventmaster.Favourite;
 import com.example.eventmanager.R;
 
 import java.io.IOException;

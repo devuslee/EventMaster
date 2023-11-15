@@ -16,6 +16,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.eventmanager.R;
+
 import org.w3c.dom.Text;
 
 import java.text.ParseException;

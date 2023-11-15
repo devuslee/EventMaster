@@ -18,7 +18,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-import com.example.eventmanager.EventSetting;
+import com.example.eventmaster.EventSetting;
 import com.example.eventmanager.R;
 
 import java.io.ByteArrayOutputStream;

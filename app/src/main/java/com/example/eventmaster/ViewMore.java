@@ -19,9 +19,9 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.eventmanager.FavouriteClass;
+import com.example.eventmaster.FavouriteClass;
 import com.example.eventmanager.R;
-import com.example.eventmanager.eventHome;
+import com.example.eventmaster.eventHome;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;

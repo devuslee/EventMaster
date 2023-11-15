@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.eventmanager.R;
+
 public class GetStarted extends AppCompatActivity {
 
     Context context;

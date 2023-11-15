@@ -10,7 +10,7 @@ import android.util.Log;
 
 import androidx.annotation.Nullable;
 
-import com.example.eventmanager.FavouriteClass;
+import com.example.eventmaster.FavouriteClass;
 
 import java.sql.Array;
 import java.sql.Blob;
