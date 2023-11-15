@@ -1,4 +1,4 @@
-package com.example.eventmanager;
+package com.example.eventmaster;
 
 import androidx.appcompat.app.AppCompatActivity;
 
