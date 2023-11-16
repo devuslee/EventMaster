@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.eventmanager.R;
+import com.example.eventmaster.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

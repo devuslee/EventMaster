@@ -19,7 +19,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.eventmanager.R;
+import com.example.eventmaster.R;
 import com.example.eventmaster.DBHelper;
 import com.example.eventmaster.User;
 import com.google.firebase.auth.FirebaseAuth;

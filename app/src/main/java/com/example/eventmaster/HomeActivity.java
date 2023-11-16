@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.example.eventmanager.R;
+import com.example.eventmaster.R;
 
 public class HomeActivity extends AppCompatActivity {
 

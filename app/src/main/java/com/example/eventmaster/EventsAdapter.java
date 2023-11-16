@@ -16,7 +16,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
-import com.example.eventmanager.R;
+import com.example.eventmaster.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

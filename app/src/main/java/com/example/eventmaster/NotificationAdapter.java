@@ -16,7 +16,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.eventmanager.R;
+import com.example.eventmaster.R;
 
 import org.w3c.dom.Text;
 

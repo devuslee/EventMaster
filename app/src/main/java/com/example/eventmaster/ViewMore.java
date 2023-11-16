@@ -20,7 +20,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.eventmaster.FavouriteClass;
-import com.example.eventmanager.R;
+import com.example.eventmaster.R;
 import com.example.eventmaster.eventHome;
 
 import java.io.IOException;

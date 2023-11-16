@@ -11,7 +11,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.util.Log;
 
-import com.example.eventmanager.R;
+import com.example.eventmaster.R;
 import com.google.firebase.FirebaseTooManyRequestsException;
 import com.hbb20.CountryCodePicker;
 

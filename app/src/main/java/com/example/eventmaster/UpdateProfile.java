@@ -19,7 +19,7 @@ import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.example.eventmaster.EventSetting;
-import com.example.eventmanager.R;
+import com.example.eventmaster.R;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

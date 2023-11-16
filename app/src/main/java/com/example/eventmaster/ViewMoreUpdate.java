@@ -21,7 +21,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.eventmaster.EventList;
-import com.example.eventmanager.R;
+import com.example.eventmaster.R;
 
 import java.io.IOException;
 import java.text.ParseException;
